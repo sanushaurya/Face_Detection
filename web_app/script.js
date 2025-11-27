@@ -5,7 +5,7 @@ let CTX = CANVAS.getContext("2d");
 let embeddings = {};
 const THRESHOLD = 0.1; // Threshold for similarity
 // Automatically use the current host (works for both localhost and network IP)
-const API_BASE = `http://${window.location.hostname}:5000`;
+const API_BASE = `https://face-detection-r97v.onrender.com`;
 const ATTENDANCE_LOG_INTERVAL = 30000; // 30 seconds - prevent duplicate logging
 const DEFAULT_PERSON_NAME = "Person"; // Default name when no embeddings loaded
 
